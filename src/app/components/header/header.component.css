@@ -1,0 +1,39 @@
+button {
+    border: 0;
+    background: #3E6259;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+   
+}
+
+.header_btns {
+    height: 35px;
+}
+.header {
+    background-color: #c0ddd6;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.products {
+    background: #3E6259;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 77px;
+    height: 30px;
+    margin: 0px 10px;
+}
+
+
+.home {
+    width: 110px;
+}

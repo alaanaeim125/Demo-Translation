@@ -1,0 +1,29 @@
+.products{
+    padding: 30px 15px 10px 15px;
+    background-color: teal;
+    border-radius: 10px;
+}
+
+.products ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.products ul li {
+    display: block;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: teal;
+    background-color: #bfddd6;
+    margin-bottom: 30px;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Example to change direction */
+::ng-deep body[dir="rtl"] .products ul li {
+    text-align: right !important;
+}

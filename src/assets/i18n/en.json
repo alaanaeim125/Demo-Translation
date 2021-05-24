@@ -1,0 +1,13 @@
+{
+    "HOME": "Home Page",
+    "LAPTOP": {
+        "DELL": "Laptop Dell",
+        "APPLE": "Laptop Apple",
+        "ACCER":"Laptop Accer",
+        "HP":"Laptop Hp",
+        "TOSHIBA":"Laptop Toshiba"
+    },
+    "DESCRIPTION": "Description",
+    "PRODUCTS": "Products",
+    "PAGE PRODUCTS":"Page To Display Products"
+}

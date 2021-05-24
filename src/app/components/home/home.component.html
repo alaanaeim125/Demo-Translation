@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <div class="col-3">
+            <div class="products">
+                <ul>
+                    <li routerLink="/dell">{{"LAPTOP.DELL" | translate}}</li>
+                    <li routerLink="/hp">{{"LAPTOP.HP" | translate}}</li>
+                    <li routerLink="/accer">{{"LAPTOP.ACCER" | translate}}</li>
+                    <li routerLink="/toshiba">{{"LAPTOP.TOSHIBA" | translate}}</li>
+                    <li routerLink="/apple">{{"LAPTOP.APPLE" | translate}}</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-9">
+           <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

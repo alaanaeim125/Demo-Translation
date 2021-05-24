@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+.images img {
+  width: 320px;
+  height: 320px;
+  border-radius: 10px;
+  border: 1px solid teal;
+}
+
+.images {
+  margin-top: 25px !important;
+}
+
+/* Theme Colors*/
+:root {
+    --primary: #1766ff;
+  --dark-primary: #0a0094;
+  --green: #3fb1b5;
+  --yellow: #ffcf2d;
+  --red: #ff0000;
+  --light-blue: #19eaf1;
+  --dark-pink: #9a3b82;
+  --light-pink: #eea6af;
+  --light-purple: #e7e9ff;
+  --light-bg: #ffffff;
+  --dark-bg: #f4f5fd;
+}
