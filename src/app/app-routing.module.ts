@@ -1,3 +1,4 @@
+import { ExcelComponent } from './components/excel/excel.component';
 import { AppleComponent } from './components/apple/apple.component';
 import { ToshibaComponent } from './components/toshiba/toshiba.component';
 import { AccerComponent } from './components/accer/accer.component';
@@ -22,6 +23,9 @@ const routes: Routes = [
   },
   {
     path: 'products', loadChildren: () => import('./modules/products/products.module').then(m => m.ProductsModule) 
+  },
+  {
+    path: 'excel', component: ExcelComponent
   }
 ];
 

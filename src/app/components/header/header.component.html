@@ -6,6 +6,7 @@
                 <button class="ar" *ngIf="lang == 'en'" (click)="changeLanguage('ar')">Ar</button>
                 <button class="products" (click)="navigateToProducts()">{{"PRODUCTS" | translate}}</button>
                 <button class="products home" (click)="navigateToHome()">{{"HOME" | translate}}</button>
+                <button class="products home" [routerLink]="['excel']">Excel Test</button>
             </div>
         </div>
     </div>

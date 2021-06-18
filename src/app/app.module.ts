@@ -15,6 +15,7 @@ import { DellComponent } from './components/dell/dell.component';
 import { AppleComponent } from './components/apple/apple.component';
 import { AccerComponent } from './components/accer/accer.component';
 import { ToshibaComponent } from './components/toshiba/toshiba.component';
+import { ExcelComponent } from './components/excel/excel.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { ToshibaComponent } from './components/toshiba/toshiba.component';
     AppleComponent,
     AccerComponent,
     ToshibaComponent,
+    ExcelComponent,
   ],
   imports: [
     BrowserModule,
