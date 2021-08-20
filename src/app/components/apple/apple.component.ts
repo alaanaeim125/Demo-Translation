@@ -8,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class AppleComponent implements OnInit {
 
   data:any = [];
-  users: []  [];
+  users: any[]  [];
+  admins: any[] = [];
+
   constructor() { }
 
   ngOnInit(): void {
