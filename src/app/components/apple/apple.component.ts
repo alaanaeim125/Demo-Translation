@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppleComponent implements OnInit {
 
+  users: []  [];
   constructor() { }
 
   ngOnInit(): void {
