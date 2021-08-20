@@ -12,6 +12,7 @@ export class AppleComponent implements OnInit {
   admins: any[] = [];
   customers: any[] = [];
   topics: any[] = [];
+  masters: any[] = [];
 
   constructor() { }
 
